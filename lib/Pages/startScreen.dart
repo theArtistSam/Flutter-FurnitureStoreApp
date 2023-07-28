@@ -38,6 +38,13 @@ class StartScreen extends StatelessWidget {
           Positioned(
             right: 25,
             bottom: 55,
+            child: GestureDetector(
+                onTap: (){
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const HomeScreen()),
+                  );
+                 },
             child: Container(              
               width: 50,
               height: 50,
@@ -46,13 +53,6 @@ class StartScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(7) 
                 
               ),
-              child: GestureDetector(
-                onTap: (){
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const HomeScreen()),
-                  );
-                },
                 child: Center(
                   child: SizedBox(
                     width: 20,
