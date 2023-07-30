@@ -1,18 +1,20 @@
-# Furniture Store App UI - Flutter
+# Bank Application UI - Flutter
 
-This is a beautifully designed Furniture Store App UI built using Flutter. The app is structured following the Model-View-Controller (MVC) architecture to ensure clean and maintainable code.
+The Bank Application UI is an intuitive and user-friendly banking app built using Flutter. The app adheres to the Model-View-Controller (MVC) architecture to ensure a well-organized and maintainable codebase.
 
 ## Features
 
-- A welcoming start screen with a user-friendly arrow button to navigate to the home page.
-- A dynamic home screen showcasing product lists and personalized suggestions.
-- An interactive product page that presents detailed information about each product, including name, price, description, color palette, and multiple pictures.
+- A welcoming start screen with a prominent button for easy navigation to the registration page.
+- A comprehensive registration screen with user-friendly text fields and a convenient "Continue with Google" option.
+- An informative home screen displaying the total balance of the user's accounts, a bottom navigation bar for seamless navigation, a list of all linked credit cards, and real-time currency exchange rates.
 
 ## Screens
 
-1. **Home**: The home page displays various furniture categories and popular products.
+1. **Start Screen**: The start screen offers a warm welcome to users and includes a prominent button to direct them to the registration page.
 
-2. **Product Page**: The product page offers in-depth details about each furniture item, providing a comprehensive view of the product's features and design.
+2. **Registration Screen**: The registration screen enables users to sign up for the bank app with ease. It features user-friendly text fields to enter personal details and a convenient option to continue registration with their Google account.
+
+3. **Home Screen**: The home screen provides users with a holistic view of their banking information. It showcases the total balance of their accounts, allows seamless navigation through a bottom navigation bar, displays all linked credit cards for quick access, and offers real-time currency exchange rates to stay updated on international transactions.
 
 ## How to Run
 
@@ -36,19 +38,20 @@ This is a beautifully designed Furniture Store App UI built using Flutter. The a
 
 ## Screenshots
 
-![The Furniture Store](UI/cover.png)
+![The Bank Application](UI/cover.png)
 
 ## UI Design
 
-The UI design of this app focuses on creating an immersive and elegant shopping experience for users. The color palette and typography have been thoughtfully chosen to evoke a sense of luxury and sophistication. Careful attention to image selection and icon placement enhances the overall user experience, encouraging users to explore the extensive furniture collection.
+The UI design of the Bank Application focuses on simplicity and ease of use for a seamless banking experience. The color scheme and typography are carefully selected to evoke a sense of trust and professionalism. Thoughtful placement of icons and navigation elements ensures that users can access their financial information effortlessly.
 
 ## Libraries Used
 
 This project utilizes the following libraries:
 
 - `flutter_svg`: To display SVG images seamlessly within the app.
-- `google_fonts`: To incorporate custom Google Fonts for a unique and cohesive typography design.
+- `google_fonts`: To incorporate custom Google Fonts for a consistent and elegant typography design.
+- `flutter_staggered_grid_view`: To incorporate variable size gridview within the app.
 
 ## Contribution
 
-Contributions are more than welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Your contributions will be greatly appreciated and will help make this Furniture Store App even better.
+Contributions to this project are highly encouraged! If you encounter any issues or have valuable suggestions for improvement, please feel free to open an issue or submit a pull request. Your contributions will be greatly appreciated and will enhance the overall quality of the Bank Application UI.
