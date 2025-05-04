@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:furniture_app/Pages/homeScreen.dart';
-import 'package:furniture_app/Pages/productScreen.dart';
-import 'package:furniture_app/Pages/startScreen.dart';
-
+import 'package:furniture_app/screens/onboarding.dart';
 
 // Colors.
 const Color accentColor = Color(0xFF7993AE);
@@ -18,23 +15,21 @@ class MyApp extends StatelessWidget {
 
   // This widget is the root of your application.
   @override
- // This widget is the root of your application.
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark.copyWith(
-      statusBarColor: backgroundColor,  
+      statusBarColor: backgroundColor,
       systemNavigationBarColor: backgroundColor,
     ));
-    
+
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        
       ),
-      
-      home: const StartScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }
